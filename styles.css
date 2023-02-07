@@ -1,0 +1,83 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  font-family: 'Happy Monkey', cursive;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  background-image: url("images/rotterdam.jpg");
+  color: whitesmoke;
+  font-style: bold;
+  text-shadow: 2px 2px 5px #5F021F;
+  padding: 40px;
+  background-size: cover;
+}
+
+.intro, .pagina {
+  background: #FFC7AD;
+}
+
+.intro {
+  padding: 50px 0 10px 0;
+}
+
+.pagina {
+  padding-top: 0;
+}
+
+.fotos {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.fotos:hover {
+  background: smokewhite;
+}
+
+.guide {
+  padding-top: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFD5C2;
+  padding: 0px 0px;
+  border-radius: 15px;
+  border-style: solid;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+#bier, #fenix, #keile {
+  width: 150px;
+  background: #FFD5C2;
+  padding: 25px;
+  border-radius: 15px;
+  border-style: solid;
+}
+
+
+.fotos img:hover {
+  background: smokewhite;
+}
